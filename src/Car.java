@@ -12,6 +12,7 @@ public class Car {
         return wheels;
     }
 
+<<<<<<< HEAD
     public void setWheels(boolean wheels) {
         this.wheels = wheels;
     }
@@ -28,4 +29,9 @@ public class Car {
     public String toString() {
         return "Wheels: " + wheels + "cylinders: " + cylinders + "\n";
     }
+=======
+    public int getCylinders() {
+        return cylinders;
+    }
+>>>>>>> 1d742be (add getters on car)
 }
